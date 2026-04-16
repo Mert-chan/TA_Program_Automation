@@ -6,6 +6,8 @@ Given an Excel file listing which TAs are assigned to which courses and how many
 
 **The TA selection process (deciding which TAs get which courses) is out of scope.** That was the next step to be automized but project is abonded due to standartization issues.
 
+![TA Program Automation GUI](app_pic.png)
+
 ---
 
 ## What it does
