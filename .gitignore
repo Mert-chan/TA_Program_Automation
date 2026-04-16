@@ -1,0 +1,10 @@
+data/
+dist/
+build/
+notebooks/
+__pycache__/
+*.xlsx
+*.html
+*.log
+*.spec
+.requirements_installed.flag

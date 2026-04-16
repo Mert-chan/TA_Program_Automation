@@ -1,0 +1,7 @@
+numpy
+pandas
+openpyxl
+xlrd
+matplotlib
+beautifulsoup4
+streamlit
