@@ -1,6 +1,6 @@
 # TA Program Automation
 
-Automates weekly teaching program construction for TA assignments at NTU EEE department.
+Automates weekly teaching program construction for Teaching Assistants (TA) assignments at NTU EEE department.
 
 Given an Excel file listing which TAs are assigned to which courses and how many groups they cover, the tool assigns each group to a specific TA and fills the corresponding HTML timetable files making sure there are no clashes between different student schedules.
 
