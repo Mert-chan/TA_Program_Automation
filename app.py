@@ -61,7 +61,7 @@ if "initialized" not in st.session_state:
     st.session_state.initialized        = True
     st.session_state.excel_path         = ""
     st.session_state.sem_folder         = ""
-    st.session_state.out_root           = str(PROJECT_ROOT / "output_html")
+    st.session_state.out_root           = ""
     st.session_state.semester           = "Sem 1"
     st.session_state.mode               = "single"
     st.session_state.assignment_dict    = None
@@ -83,7 +83,8 @@ with st.expander("Paths & Configuration", expanded=True):
                   placeholder="e.g. C:/path/to/Assignment.xlsx")
     st.text_input("Semester HTML folder", key="sem_folder",
                   placeholder="e.g. C:/path/to/Sem1_HTML")
-    st.text_input("Output root folder", key="out_root")
+    st.text_input("Output root folder", key="out_root",
+                  placeholder="e.g. C:/path/to/output")
 
     c1, c2, c3 = st.columns([1, 1, 1])
 
